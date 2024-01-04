@@ -122,6 +122,19 @@ export default function PersistentDrawerLeft({
             </ListItem>
           </List>
         </Link>
+        <Divider />
+        <Link to="/slow-api-2">
+          <List>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <MailIcon />
+                </ListItemIcon>
+                <ListItemText primary="Slow API 2" />
+              </ListItemButton>
+            </ListItem>
+          </List>
+        </Link>
       </Drawer>
       <Main open>
         <DrawerHeader />
