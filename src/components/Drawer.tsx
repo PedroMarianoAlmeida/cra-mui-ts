@@ -80,7 +80,7 @@ export default function PersistentDrawerLeft({
       <AppBar position="fixed" open>
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            NextJS Example
+            CRA Example
           </Typography>
         </Toolbar>
       </AppBar>
